@@ -1,0 +1,67 @@
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'Sahel', sans-serif!important;
+}
+p,h1,h2,h3,h4,h5,li,a,input,button,header,main,footer{
+    font-family: 'Sahel', sans-serif!important;
+}
+.navbar-brand {
+    margin-left: 1rem;
+    margin-right: unset;
+}
+.feature-item .icon {
+    float: right;
+}
+.feature-content {
+    margin-right: 100px;
+    margin-left: unset;
+}
+.services-item {
+   text-align: right!important;
+}
+#testimonial{
+    direction: ltr!important;
+}
+.description{
+    direction: rtl!important;
+}
+.info{
+    direction: rtl!important;
+}
+/*.contact-right-area {*/
+/*    margin-right: 50px;*/
+/*    margin-left: unset;*/
+/*}*/
+.contact-right .contact-icon {
+    right: 0;
+    left: unset;
+}
+
+/*single*/
+
+.single-latest-post .latest-post-img {
+    float: right;
+    margin-left: 20px;
+    margin-right: unset;
+}
+.blog-comment .avatar {
+    float: right;
+    margin-left: 15px;
+    margin-right: unset;
+}
+.blog-comment .comment-list .children {
+    padding-right: 40px;
+    padding-left: unset;
+}
+.tags ul li a {
+    float: right;
+}
+.float-left {
+    float: right!important;
+}
+@media (max-width: 767px){
+    .copyright .float-right {
+        float: right !important;
+    }
+}
